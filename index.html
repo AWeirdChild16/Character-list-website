@@ -3,97 +3,105 @@
     <head>
         <meta charset="UTF-8" />
         <title>Character Index</title>
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="icon" type="image/png" href="images/favicon.png" />
     </head>
     <body>
-        <h1>Welcome to my character index</h1>
-        <p>
-            This is where I will post character descriptions. <br />
-            I will keep them all up to date with any new information. <br />
-            If you have any questions, there is a <strong>form</strong> at the bottom of this page.
-        </p>
+        <div id="intro">
+            <h1>Welcome to my character index</h1>
+            <p>
+                This is where I will post character descriptions. <br />
+                I will keep them all up to date with any new information. <br />
+                If you have any questions, there is a <strong>form</strong> at the bottom of this page.
+            </p>
 
-        <table>
-            <tr>
-                <th>
-                    <br /><a href="guardian.html">
-                        <img src="images/guardian-icon.jpg" alt="Guardian thumbnail" width="20%"
-                    /></a>
-                </th>
-                <th><a href="charlie.html">Charlie page</a></th>
-            </tr>
-            <tr>
-                <th><a href="lilith.html">Lilith page</a></th>
-                <th><a href="apprentice.html">Apprentice page</a></th>
-            </tr>
-        </table>
+            <table>
+                <tr>
+                    <th>
+                        <br /><a href="guardian.html">
+                            <img src="images/guardian-icon.jpg" alt="Guardian thumbnail" width="20%"
+                        /></a>
+                    </th>
+                    <th><a href="charlie.html">Charlie page</a></th>
+                </tr>
+                <tr>
+                    <th><a href="lilith.html">Lilith page</a></th>
+                    <th><a href="apprentice.html">Apprentice page</a></th>
+                </tr>
+            </table>
+        </div>
 
-        <p>Characters I might add</p>
-        <ul>
-            <li>Draven</li>
-            <li>Wyatt</li>
-            <li>Scarlett</li>
-            <li>Mason</li>
-            <li>Casidy</li>
-        </ul>
+        <div id="new_characters">
+            <p>Characters I might add</p>
+            <ul>
+                <li>Draven</li>
+                <li>Wyatt</li>
+                <li>Scarlett</li>
+                <li>Mason</li>
+                <li>Casidy</li>
+            </ul>
+        </div>
 
-        <h3>Character strengths</h3>
-        <table border="2">
-            <tr>
-                <th>Name</th>
-                <th>Physical strenght</th>
-                <th>Mana strength</th>
-                <th>Durability</th>
-                <th>Speed</th>
-                <th>Tactical thinking</th>
-                <th>Battle experience</th>
-            </tr>
-            <tr>
-                <th>guardian</th>
-                <td>6</td>
-                <td>8</td>
-                <td>9</td>
-                <td>7</td>
-                <td>7</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <th>Charlie</th>
-                <td>5</td>
-                <td>8</td>
-                <td>7</td>
-                <td>9</td>
-                <td>7</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <th>Lilith</th>
-                <td>4</td>
-                <td>9</td>
-                <td>7</td>
-                <td>9</td>
-                <td>9</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <th>Apprentice</th>
-                <td>4</td>
-                <td>8</td>
-                <td>9</td>
-                <td>6</td>
-                <td>7</td>
-                <td>4</td>
-            </tr>
-        </table>
+        <div id="character_strengths">
+            <h3>Character strengths</h3>
+            <table border="2">
+                <tr>
+                    <th>Name</th>
+                    <th>Physical strenght</th>
+                    <th>Mana strength</th>
+                    <th>Durability</th>
+                    <th>Speed</th>
+                    <th>Tactical thinking</th>
+                    <th>Battle experience</th>
+                </tr>
+                <tr>
+                    <th>guardian</th>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th>Charlie</th>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th>Lilith</th>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>Apprentice</th>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </div>
 
-        <form>
-            <label for="email">Please enter your email:</label>
-            <input type="email" id="email" placeholder="john_doe@email.com" /><br />
-            <label for="contact">Do you want to be contacted for any changes?</label>
-            <input type="checkbox" id="contact" /><br />
-            <label for="question">Enter your questions here.</label><br />
-            <textarea rows="10" cols="50"></textarea><br />
-            <input type="submit" value="Submit" />
-        </form>
+        <div>
+            <form>
+                <label for="email">Please enter your email:</label>
+                <input type="email" id="email" placeholder="john_doe@email.com" /><br />
+                <label for="contact">Do you want to be contacted for any changes?</label>
+                <input type="checkbox" id="contact" /><br />
+                <label for="question">Enter your questions here.</label><br />
+                <textarea rows="10" cols="50"></textarea><br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
     </body>
 </html>
