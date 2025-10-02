@@ -1,0 +1,31 @@
+body {
+    color: #28353D;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#character_strengths{
+    align-content: center;
+}
+
+#icon{
+    float: left;
+    margin: 10px;
+}
+
+
+#intro p{
+    font-size: large
+}
+
+#title{
+    display:flexbox;
+    align-items: center;
+    margin-left: 50;
+    margin-right: 50;
+}
+
+h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
