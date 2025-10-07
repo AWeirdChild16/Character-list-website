@@ -2,11 +2,6 @@ body {
     color: #2e144b;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    background-color: #fcffff
-}
-
-#character_strengths{
-    align-content: center;
 }
 
 #icon{
@@ -29,20 +24,12 @@ body {
 h1{
     padding-top: 15px;
     padding-bottom: 20px;
+    font-size: 50px
 }
 
 #new_characters{
     list-style-position: inside;
     font-size: larger
-}
-
-
-#character_strengths{
-    font-size: larger;
-    padding: 30px;
-    overflow-x: auto;
-    display:inline-block;
-    
 }
 
 #form{
@@ -55,22 +42,39 @@ h1{
 
 #character_strengths th{
     padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#guardian{
+.guardian{
     color: #170090;
     background-color: #e2e2e2;
 }
 
-#charlie{
+.charlie{
     color: #009393;
 }
 
-#lilith{
+.lilith{
     color: #930081;
     background-color: #e2e2e2;
 }
 
-#apprentice{
+.apprentice{
     color: #6800b4;
+}
+
+#character_strengths table, th, td, tr{
+    border: solid 2px;
+    border-collapse: collapse;
+    border-color: #2e144b;
+}
+
+#character_strengths{
+    overflow-x: auto;
+    font-size: larger;
+    padding: 30px;
+    display:inline-block;
+    align-content: center;
+    
 }
