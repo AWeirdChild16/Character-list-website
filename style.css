@@ -16,6 +16,7 @@ body {
 #title {
     max-width: 100%;
     align-items: center;
+    
 }
 
 #title img {
@@ -35,6 +36,7 @@ h1 {
 }
 
 #form {
+    align-self: center;
     padding-top: 50px;
     padding-bottom: 10px;
     border-top-style: solid;
