@@ -1,7 +1,8 @@
 body {
-    color: #133a52;
+    color: #2e144b;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    background-color: #fcffff
 }
 
 #character_strengths{
@@ -41,6 +42,7 @@ h1{
     padding: 30px;
     overflow-x: auto;
     display:inline-block;
+    
 }
 
 #form{
@@ -53,4 +55,22 @@ h1{
 
 #character_strengths th{
     padding: 5px;
+}
+
+#guardian{
+    color: #170090;
+    background-color: #e2e2e2;
+}
+
+#charlie{
+    color: #009393;
+}
+
+#lilith{
+    color: #930081;
+    background-color: #e2e2e2;
+}
+
+#apprentice{
+    color: #6800b4;
 }
