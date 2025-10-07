@@ -10,13 +10,16 @@ body {
 }
 
 #intro p {
-    font-size: large;
+    font-size: larger;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: #000052;
+    padding-top: 5px;
 }
 
 #title {
-    max-width: 100%;
-    align-items: center;
-    
+    max-width: 50%;
+    padding-left: 25%;
 }
 
 #title img {
@@ -25,14 +28,14 @@ body {
 }
 
 h1 {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 20px;
     font-size: 50px;
 }
 
 #new_characters {
     list-style-position: inside;
-    font-size: larger;
+    font-size: 25px;
 }
 
 #form {
@@ -92,6 +95,9 @@ tr {
 .nav_bar {
     text-align: center;
     width: 100%;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #000052;
 }
 
 /*stuff that doesn't change*/
@@ -111,6 +117,7 @@ tr {
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
+    padding-bottom: 5px;
 }
 
 .nav_button {
