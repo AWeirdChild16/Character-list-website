@@ -81,6 +81,7 @@ tr {
     padding: 30px;
     display: inline-block;
     align-content: center;
+    max-width: 100%;
 }
 
 .nav_bar {
@@ -105,10 +106,12 @@ tr {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .nav_button {
     width: 40%;
     height: 40%;
 }
+
 
 /*tablets and up*/
 @media (min-width: 768px) {
