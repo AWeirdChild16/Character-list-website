@@ -4,11 +4,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-#icon {
-    float: left;
-    margin: 10px;
-}
-
 #intro p {
     font-size: larger;
     border-top-style: solid;
@@ -125,11 +120,10 @@ tr {
     height: 40%;
 }
 
-#form textarea{
+#form textarea {
     max-width: 90%;
     max-height: 90%;
 }
-
 
 /*tablets and up*/
 @media (min-width: 768px) {
@@ -143,7 +137,7 @@ tr {
         width: 40%;
         height: 40%;
     }
-    #form textarea{
+    #form textarea {
         max-width: 90%;
         max-height: 90%;
     }
@@ -155,5 +149,10 @@ tr {
         display: inline-block;
         width: 15%;
         height: 15%;
+    }
+
+    #icon {
+        float: left;
+        margin: 10px;
     }
 }
