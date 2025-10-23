@@ -1,3 +1,4 @@
+/*stuff that doesn't change*/
 body {
     color: #2e144b;
     text-align: center;
@@ -25,7 +26,6 @@ body {
 h1 {
     padding-top: 25px;
     padding-bottom: 20px;
-    font-size: 50px;
 }
 
 #new_characters {
@@ -95,7 +95,6 @@ tr {
     border-color: #000052;
 }
 
-/*stuff that doesn't change*/
 .nav_button {
     border: 2px solid;
     margin: 15px;
@@ -125,6 +124,10 @@ tr {
     max-height: 90%;
 }
 
+h1 {
+    font-size: 35px;
+}
+
 /*tablets and up*/
 @media (min-width: 768px) {
     .nav_bar {
@@ -141,6 +144,10 @@ tr {
         max-width: 90%;
         max-height: 90%;
     }
+    
+    h1 {
+        font-size: 45px;
+    }
 }
 
 /*large desktop*/
@@ -154,5 +161,9 @@ tr {
     #icon {
         float: left;
         margin: 10px;
+    }
+
+    h1 {
+        font-size: 50px;
     }
 }
