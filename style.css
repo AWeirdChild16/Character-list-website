@@ -103,6 +103,10 @@ tr {
     vertical-align: middle;
 }
 
+.nav_button img{
+    width: 100%;
+}
+
 /*default - mobile/phone*/
 
 .nav_bar {
